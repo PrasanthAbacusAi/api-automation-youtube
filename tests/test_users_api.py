@@ -19,7 +19,7 @@ def test_create_users(api_client,load_user_data):
     #     "username":"qa user",
     #     "email":"test@gmail.com"
     # }
-#hi
+#hi hello prasanth
     user_data = load_user_data["new_user"]
 
     unique_email = f"{uuid.uuid4().hex[:8]}@gmail.com"
